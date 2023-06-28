@@ -1,0 +1,17 @@
+body {
+    color: #fff;
+    background-color: #232129;
+    padding: 96px;
+    font-family: -apple-system, Roboto, sans-serif, serif;
+}
+
+/* Main Heading Container */
+div.primary-heading-container {
+    padding: 25px;
+}
+
+/* Main Heading */
+h1.primary-heading {
+    font-size: 2.5em;
+    text-align: center;
+}

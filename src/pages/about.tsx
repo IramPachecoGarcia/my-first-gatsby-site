@@ -1,21 +1,18 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import CustomLinkStyles from '../components/style'
+import { PrimaryHeading } from '../components/primaryHeading'
+import '../styles/style.css'
 
-const pageStyles = {
-    color: "#232129",
-    padding: 96,
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
-const About = () => {
+const AboutPage = () => {
     return (
-        <div style={pageStyles}>
-            <h1>About Page</h1>
-            <Link to="/">Home</Link>
+        <div>
+            <PrimaryHeading>About Page</PrimaryHeading>
+            <Link style={CustomLinkStyles} to="/">Home</Link>
             <p>Hi, I'm the creator of this site!</p>
         </div>
     )
 }
 
-export default About;
-export {Head} from "../head_metadata/head.tsx"
+export default AboutPage;
+export {Head} from "../head_metadata/head"

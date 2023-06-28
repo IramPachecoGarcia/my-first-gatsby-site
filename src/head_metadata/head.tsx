@@ -6,3 +6,5 @@ export const Head = () => (
         <meta name="description" content="Hello World" />
     </>
 )
+
+export default Head
