@@ -1,9 +1,10 @@
 import * as React from 'react'
+import { primaryHeadingContainer, primaryHeadingStyles } from './primaryHeading.module.css'
 
-export const PrimaryHeading = (props) => {
+export const PrimaryHeading = ({children}) => {
     return (
-        <div class="primary-heading-container">
-            <h1 class="primary-heading">{props. children}</h1>
+        <div className={primaryHeadingContainer}>
+            <h1 className={primaryHeadingStyles}>{children}</h1>
         </div>
     )
 }

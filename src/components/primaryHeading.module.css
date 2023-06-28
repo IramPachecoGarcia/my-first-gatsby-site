@@ -1,0 +1,10 @@
+/* Main Heading Container */
+div.primaryHeadingContainer {
+    padding: 25px;
+}
+
+/* Main Heading */
+h1.primaryHeadingStyles {
+    font-size: 2.5em;
+    text-align: center;
+}
