@@ -1,14 +1,21 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import CustomLinkStyles from '../components/style'
+import { 
+    container, 
+    CustomLinkStyles,
+    heading,
+    navLinks,
+    navLinkItem,
+    navLinkText
+} from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div>
+        <div className={container}>
             <nav>
-                <ul>
-                <li><Link style={CustomLinkStyles} to="/">Home</Link></li>
-                <li><Link style={CustomLinkStyles} to="/about">About</Link></li>
+                <ul className={navLinks}>
+                <li className={navLinkItem}><Link className={navLinkText} to="/">Home</Link></li>
+                <li className={navLinkItem}><Link className={navLinkText} to="/about">About</Link></li>
                 </ul>
             </nav>
             <main>

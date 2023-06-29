@@ -1,5 +1,8 @@
 import * as React from 'react'
-import { primaryHeadingContainer, primaryHeadingStyles } from './primaryHeading.module.css'
+import { 
+    primaryHeadingContainer, 
+    primaryHeadingStyles 
+} from './primaryHeading.module.css'
 
 export const PrimaryHeading = ({children}) => {
     return (
